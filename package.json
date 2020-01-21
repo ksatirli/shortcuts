@@ -1,0 +1,27 @@
+{
+  "name": "@operatehappy/shortcuts",
+  "version": "0.8.5",
+  "description": "Operate Happy's collection of shortcuts",
+  "main": "README.md",
+  "scripts": {
+    "pretest": "script/setup",
+    "test": "script/test"
+  },
+  "bin": {
+    "terraform-apply": "terraform-apply.sh",
+    "terraform-destroy": "terraform-destroy.sh",
+    "terraform-fmt": "terraform-fmt.sh",
+    "terraform-get": "terraform-get.sh",
+    "terraform-graph": "terraform-graph.sh",
+    "terraform-import": "terraform-import.sh",
+    "terraform-init": "terraform-init.sh",
+    "terraform-plan": "terraform-plan.sh",
+    "terraform-refresh": "terraform-refresh.sh",
+    "terraform-taint": "terraform-taint.sh",
+    "terraform-untaint": "terraform-untaint.sh",
+    "terraform-workspace-delete": "terraform-workspace-delete.sh",
+    "terraform-workspace-new": "terraform-workspace-new.sh"
+  },
+  "author": "Kerim Satirli <kerim@operatehappy.com>",
+  "license": "Apache-2.0"
+}
