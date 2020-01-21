@@ -1,6 +1,6 @@
 {
   "name": "@operatehappy/shortcuts",
-  "version": "0.8.5",
+  "version": "0.9.0",
   "description": "Operate Happy's collection of shortcuts",
   "main": "README.md",
   "scripts": {
