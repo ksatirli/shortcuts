@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# script/update: Update application to run for its current checkout.
+# script/setup: Set up application for the first time after cloning
 
 set -o errexit; set -o nounset
 

@@ -22,6 +22,9 @@
     "terraform-workspace-delete": "terraform-workspace-delete.sh",
     "terraform-workspace-new": "terraform-workspace-new.sh"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Kerim Satirli <kerim@operatehappy.com>",
   "license": "Apache-2.0"
 }
