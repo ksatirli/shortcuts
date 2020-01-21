@@ -1,6 +1,6 @@
 {
   "name": "@operatehappy/shortcuts",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Operate Happy's collection of shortcuts",
   "main": "README.md",
   "scripts": {
@@ -8,6 +8,9 @@
     "test": "script/test"
   },
   "bin": {
+    "docker-remove-dangling-volumes": "docker-remove-dangling-volumes.sh",
+    "docker-remove-dead": "docker-remove-dead.sh",
+    "docker-system-prune": "docker-system-prune.sh",
     "terraform-apply": "terraform-apply.sh",
     "terraform-destroy": "terraform-destroy.sh",
     "terraform-fmt": "terraform-fmt.sh",
