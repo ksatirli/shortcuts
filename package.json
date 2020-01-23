@@ -28,6 +28,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": {
+    "*.sh"
+  },
   "author": "Kerim Satirli <kerim@operatehappy.com>",
   "license": "Apache-2.0"
 }
