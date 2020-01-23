@@ -4,6 +4,7 @@
     "docker-remove-dangling-volumes": "docker-remove-dangling-volumes.sh",
     "docker-remove-dead": "docker-remove-dead.sh",
     "docker-system-prune": "docker-system-prune.sh",
+    "git-log": "git-log.sh",
     "serve-me": "serve-me.sh",
     "terraform-apply": "terraform-apply.sh",
     "terraform-destroy": "terraform-destroy.sh",
