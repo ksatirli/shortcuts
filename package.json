@@ -1,16 +1,11 @@
 {
-  "name": "@operatehappy/shortcuts",
-  "version": "0.10.0",
-  "description": "Operate Happy's collection of shortcuts",
-  "main": "README.md",
-  "scripts": {
-    "pretest": "script/setup",
-    "test": "script/test"
-  },
+  "author": "Kerim Satirli <kerim@operatehappy.com>",
   "bin": {
     "docker-remove-dangling-volumes": "docker-remove-dangling-volumes.sh",
     "docker-remove-dead": "docker-remove-dead.sh",
     "docker-system-prune": "docker-system-prune.sh",
+    "git-log": "git-log.sh",
+    "serve-me": "serve-me.sh",
     "terraform-apply": "terraform-apply.sh",
     "terraform-destroy": "terraform-destroy.sh",
     "terraform-fmt": "terraform-fmt.sh",
@@ -25,9 +20,22 @@
     "terraform-workspace-delete": "terraform-workspace-delete.sh",
     "terraform-workspace-new": "terraform-workspace-new.sh"
   },
+  "description": "Operate Happy's collection of shortcuts",
+  "files": [
+    "*.sh"
+  ],
+  "license": "Apache-2.0",
+  "main": "README.md",
+  "name": "@operatehappy/shortcuts",
+  "os": [
+    "!win32"
+  ],
+  "scripts": {
+    "pretest": "script/setup",
+    "test": "script/test"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "author": "Kerim Satirli <kerim@operatehappy.com>",
-  "license": "Apache-2.0"
+  "version": "0.10.0"
 }

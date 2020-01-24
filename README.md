@@ -6,8 +6,65 @@
 
 - [Shortcuts for @operatehappy](#shortcuts-for-operatehappy)
   - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Dependencies](#dependencies)
+  - [Usage](#usage)
   - [Author Information](#author-information)
   - [License](#license)
+
+## Requirements
+
+This module requires Node.js 6.x or later.
+
+## Dependencies
+
+This script has no external dependencies.
+
+## Usage
+
+To install this utility, run the following command in your console:
+
+```
+npm install -g @operatehappy/shortcuts
+```
+
+This will make the following shortcuts available globally:
+
+### Docker
+
+* `docker-remove-dangling-volumes`
+* `docker-remove-dead`
+* `docker-system-prune`
+
+### Git
+
+* `git-log`
+
+### Terraform
+
+* `terraform-apply`
+* `terraform-destroy`
+* `terraform-fmt`
+* `terraform-get`
+* `terraform-graph`
+* `terraform-import`
+* `terraform-init`
+* `terraform-plan`
+* `terraform-refresh`
+* `terraform-taint`
+* `terraform-untaint`
+* `terraform-workspace-delete`
+* `terraform-workspace-new`
+
+The shortcuts in the _Terraform_ section set sensible defaults that work for _us_. Inspect the [Shell scripts](https://github.com/operatehappy/node-shortcuts/search?l=Shell&q=terraform) for a better understanding of what that means.
+
+### misc. stuff
+
+* `serve-me`
+
+This shortcut provides a quick way of serving the current directory via HTTP. The shortcut defaults to using `python` and maps to port `4779`.
+
+The runtime can be changed by supplying a single argument as the first argument. Valid options include: `python2`, `python3`, `php`, and `ruby`.
 
 ## Author Information
 
