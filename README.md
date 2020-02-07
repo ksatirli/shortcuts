@@ -24,7 +24,7 @@ This script has no external dependencies.
 
 To install this utility, run the following command in your console:
 
-```
+```sh
 npm install -g @operatehappy/shortcuts
 ```
 
@@ -32,35 +32,35 @@ This will make the following shortcuts available globally:
 
 ### Docker
 
-* `docker-remove-dangling-volumes`
-* `docker-remove-dead`
-* `docker-system-prune`
+- `docker-remove-dangling-volumes`
+- `docker-remove-dead`
+- `docker-system-prune`
 
 ### Git
 
-* `git-log`
+- `git-log`
 
 ### Terraform
 
-* `terraform-apply`
-* `terraform-destroy`
-* `terraform-fmt`
-* `terraform-get`
-* `terraform-graph`
-* `terraform-import`
-* `terraform-init`
-* `terraform-plan`
-* `terraform-refresh`
-* `terraform-taint`
-* `terraform-untaint`
-* `terraform-workspace-delete`
-* `terraform-workspace-new`
+- `terraform-apply`
+- `terraform-destroy`
+- `terraform-fmt`
+- `terraform-get`
+- `terraform-graph`
+- `terraform-import`
+- `terraform-init`
+- `terraform-plan`
+- `terraform-refresh`
+- `terraform-taint`
+- `terraform-untaint`
+- `terraform-workspace-delete`
+- `terraform-workspace-new`
 
 The shortcuts in the _Terraform_ section set sensible defaults that work for _us_. Inspect the [Shell scripts](https://github.com/operatehappy/node-shortcuts/search?l=Shell&q=terraform) for a better understanding of what that means.
 
 ### misc. stuff
 
-* `serve-me`
+- `serve-me`
 
 This shortcut provides a quick way of serving the current directory via HTTP. The shortcut defaults to using `python` and maps to port `4779`.
 
