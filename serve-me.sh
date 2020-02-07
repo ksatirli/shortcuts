@@ -24,7 +24,7 @@ then
 
 elif [ "${1}" = "ruby" ]
 then
-  echo ${SERVEME_RUBY_BIN} \
+  ${SERVEME_RUBY_BIN} \
     -r "un" \
     -e "httpd" \
     . \
