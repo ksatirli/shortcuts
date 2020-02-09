@@ -4,6 +4,7 @@
     "docker-remove-dangling-volumes": "docker-remove-dangling-volumes.sh",
     "docker-remove-dead": "docker-remove-dead.sh",
     "docker-system-prune": "docker-system-prune.sh",
+    "docker-system-df": "docker-system-df.sh",
     "git-log": "git-log.sh",
     "pre-commit-install": "pre-commit-install.sh",
     "pre-commit-remove": "pre-commit-remove.sh",

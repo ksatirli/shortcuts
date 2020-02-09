@@ -35,6 +35,7 @@ This will make the following shortcuts available globally:
 - `docker-remove-dangling-volumes`
 - `docker-remove-dead`
 - `docker-system-prune`
+- `docker-system-df`
 
 ### Git
 
