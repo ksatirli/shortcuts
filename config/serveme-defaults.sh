@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# shellcheck disable=SC2034
 SERVEME_PORT="4779"
 SERVEME_PHP_BIN="php"
 SERVEME_PYTHON2_BIN="python2"

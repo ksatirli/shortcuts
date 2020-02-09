@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# shellcheck disable=SC2034
 TERRAFORM_LOCK_TIMEOUT=1800s
 TERRAFORM_PARALLELISM=5
 TERRAFORM_PLAN_PATH="./terraform.tfplan"
