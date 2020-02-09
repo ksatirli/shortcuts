@@ -58,6 +58,14 @@ This will make the following shortcuts available globally:
 
 The shortcuts in the _Terraform_ section set sensible defaults that work for _us_. Inspect the [Shell scripts](https://github.com/operatehappy/node-shortcuts/search?l=Shell&q=terraform) for a better understanding of what that means.
 
+### `pre-commit`
+
+- `pre-commit-install`
+- `pre-commit-remove`
+- `pre-commit-run`
+
+The shortcuts in the [pre-commit](https://pre-commit.com/) section install, remove, or run Git hooks using our organization-specific [configuration](https://github.com/operatehappy/dotfiles-org/blob/master/.pre-commit-config.yaml).
+
 ### misc. stuff
 
 - `serve-me`
