@@ -67,6 +67,10 @@ The shortcuts in the _Terraform_ section set sensible defaults that work for _us
 
 The shortcuts in the [pre-commit](https://pre-commit.com/) section install, remove, or run Git hooks using our organization-specific [configuration](https://github.com/operatehappy/dotfiles-org/blob/master/.pre-commit-config.yaml).
 
+### Operate Happy
+
+- `oh-release`
+
 ### misc. stuff
 
 - `serve-me`

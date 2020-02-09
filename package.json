@@ -6,6 +6,7 @@
     "docker-system-prune": "docker-system-prune.sh",
     "docker-system-df": "docker-system-df.sh",
     "git-log": "git-log.sh",
+    "oh-release": "oh-release.sh",
     "pre-commit-install": "pre-commit-install.sh",
     "pre-commit-remove": "pre-commit-remove.sh",
     "pre-commit-run": "pre-commit-run.sh",
