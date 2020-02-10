@@ -6,13 +6,13 @@ SELF=$(realpath "${0}")
 . "$(dirname "${SELF}")/config/pre-commit-defaults.sh"
 
 pre-commit \
-    uninstall \
-        --config "${PRECOMMIT_CONFIG}" \
+  uninstall \
+    --config "${PRECOMMIT_CONFIG}" \
 && \
 pre-commit \
-    clean \
-        --config "${PRECOMMIT_CONFIG}" \
+  clean \
+    --config "${PRECOMMIT_CONFIG}" \
 && \
 pre-commit \
-    gc \
-        --config "${PRECOMMIT_CONFIG}"
+  gc \
+    --config "${PRECOMMIT_CONFIG}"

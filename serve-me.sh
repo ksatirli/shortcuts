@@ -36,5 +36,4 @@ else
   python \
     -m "SimpleHTTPServer" \
     "${SERVEME_PORT}"
-
 fi
