@@ -36,10 +36,6 @@
   "os": [
     "!win32"
   ],
-  "scripts": {
-    "pretest": "script/setup",
-    "test": "script/test"
-  },
   "publishConfig": {
     "access": "public"
   },
