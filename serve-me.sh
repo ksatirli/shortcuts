@@ -2,7 +2,7 @@
 
 SELF=$(realpath "${0}")
 
-# shellcheck source=./config/terraform-defaults.sh
+# shellcheck source=./config/serveme-defaults.sh
 . "$(dirname "${SELF}")/config/serveme-defaults.sh"
 
 if [ "${1}" = "python2" ]
@@ -36,5 +36,4 @@ else
   python \
     -m "SimpleHTTPServer" \
     "${SERVEME_PORT}"
-
 fi
