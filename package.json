@@ -27,7 +27,8 @@
   },
   "description": "Operate Happy's collection of shortcuts",
   "files": [
-    "*.sh"
+    "*.sh",
+    "config/*.sh"
   ],
   "license": "Apache-2.0",
   "main": "README.md",
