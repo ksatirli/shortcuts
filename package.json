@@ -7,6 +7,7 @@
     "docker-system-df": "docker-system-df.sh",
     "git-log": "git-log.sh",
     "oh-release": "oh-release.sh",
+    "oh-terraform-docs": "oh-terraform-docs.sh",
     "pre-commit-install": "pre-commit-install.sh",
     "pre-commit-remove": "pre-commit-remove.sh",
     "pre-commit-run": "pre-commit-run.sh",
@@ -39,5 +40,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.12.1"
+  "version": "0.13.1"
 }
