@@ -15,6 +15,11 @@ jobs:
     name: publish-to-gpr
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
