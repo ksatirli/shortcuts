@@ -74,7 +74,7 @@ The shortcuts in the [pre-commit](https://pre-commit.com/) section install, remo
 
 ### misc. stuff
 
-- `serve-me`
+- `serve`
 
 This shortcut provides a quick way of serving the current directory via HTTP. The shortcut defaults to using `python` and maps to port `4779`.
 
