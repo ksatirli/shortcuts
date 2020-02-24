@@ -11,7 +11,7 @@
     "pre-commit-install": "pre-commit-install.sh",
     "pre-commit-remove": "pre-commit-remove.sh",
     "pre-commit-run": "pre-commit-run.sh",
-    "serve-me": "serve-me.sh",
+    "serve": "serve.sh",
     "terraform-apply": "terraform-apply.sh",
     "terraform-destroy": "terraform-destroy.sh",
     "terraform-fmt": "terraform-fmt.sh",
