@@ -5,28 +5,20 @@
 * Adds shortcuts (#10) ([8067779](https://github.com/operatehappy/node-shortcuts/commit/8067779)), closes [#10](https://github.com/operatehappy/node-shortcuts/issues/10)
 * Update deployment.yml ([b527339](https://github.com/operatehappy/node-shortcuts/commit/b527339))
 
-
-
 ## <small>0.12.1 (2020-02-10)</small>
 
 * Adds helpers (#7) ([c6e3a22](https://github.com/operatehappy/node-shortcuts/commit/c6e3a22)), closes [#7](https://github.com/operatehappy/node-shortcuts/issues/7)
 * Release 0.12.1 ([c33cbe7](https://github.com/operatehappy/node-shortcuts/commit/c33cbe7))
-
-
 
 ## 0.12.0 (2020-02-09)
 
 * pre-commit helpers (#6) ([cbea623](https://github.com/operatehappy/node-shortcuts/commit/cbea623)), closes [#6](https://github.com/operatehappy/node-shortcuts/issues/6)
 * Release 0.12.0 ([7f16fc0](https://github.com/operatehappy/node-shortcuts/commit/7f16fc0))
 
-
-
 ## <small>0.11.1 (2020-02-09)</small>
 
 * Linting and cleanup (#5) ([8b17138](https://github.com/operatehappy/node-shortcuts/commit/8b17138)), closes [#5](https://github.com/operatehappy/node-shortcuts/issues/5)
 * Release 0.11.1 ([dde8157](https://github.com/operatehappy/node-shortcuts/commit/dde8157))
-
-
 
 ## 0.11.0 (2020-01-24)
 
