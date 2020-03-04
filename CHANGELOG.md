@@ -1,4 +1,4 @@
-## 0.14.0 (2020-02-24)
+# 0.14.0 (2020-02-24)
 
 * adds `oh-terraform-docs` (#9) ([3d4a5df](https://github.com/operatehappy/node-shortcuts/commit/3d4a5df)), closes [#9](https://github.com/operatehappy/node-shortcuts/issues/9)
 * adds GitHub Actions (#8) ([e3c3488](https://github.com/operatehappy/node-shortcuts/commit/e3c3488)), closes [#8](https://github.com/operatehappy/node-shortcuts/issues/8)
