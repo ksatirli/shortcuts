@@ -29,4 +29,3 @@
 * clean-up and more documentation (#4) ([cdcebb5](https://github.com/operatehappy/node-shortcuts/commit/cdcebb5)), closes [#4](https://github.com/operatehappy/node-shortcuts/issues/4) [/github.com/operatehappy/node-shortcuts/pull/1#pullrequestreview-346994995](https://github.com//github.com/operatehappy/node-shortcuts/pull/1/issues/pullrequestreview-346994995)
 * corrects npm publish workflow ([f99def7](https://github.com/operatehappy/node-shortcuts/commit/f99def7))
 * Release 0.11.0 ([da538db](https://github.com/operatehappy/node-shortcuts/commit/da538db))
-
