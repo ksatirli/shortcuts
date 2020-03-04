@@ -8,7 +8,7 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 terraform \
   workspace \
-    delete \
-      -lock=true \
-      -lock-timeout="${TERRAFORM_LOCK_TIMEOUT}" \
-      ${@}
+  delete \
+  -lock=true \
+  -lock-timeout="${TERRAFORM_LOCK_TIMEOUT}" \
+  ${@}

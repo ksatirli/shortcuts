@@ -8,6 +8,6 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 terraform \
   graph \
-    -draw-cycles \
-    ${@} \
-| dot -Tpng > "${TERRAFORM_GRAPH_PATH}"
+  -draw-cycles \
+  ${@} |
+  dot -Tpng > "${TERRAFORM_GRAPH_PATH}"

@@ -8,8 +8,8 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 terraform-docs \
   markdown table \
-    --indent ${TERRAFORM_DOCS_INDENT} \
-    --no-escape \
-    --no-required \
-    --sort-by-required \
-    ${@}
+  --indent ${TERRAFORM_DOCS_INDENT} \
+  --no-escape \
+  --no-required \
+  --sort-by-required \
+  ${@}

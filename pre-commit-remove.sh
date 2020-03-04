@@ -7,12 +7,10 @@ SELF=$(realpath "${0}")
 
 pre-commit \
   uninstall \
-    --config "${PRECOMMIT_CONFIG}" \
-&& \
-pre-commit \
-  clean \
-    --config "${PRECOMMIT_CONFIG}" \
-&& \
-pre-commit \
-  gc \
+  --config "${PRECOMMIT_CONFIG}" &&
+  pre-commit \
+    clean \
+    --config "${PRECOMMIT_CONFIG}" &&
+  pre-commit \
+    gc \
     --config "${PRECOMMIT_CONFIG}"

@@ -9,11 +9,10 @@ tree \
   -a \
   -C \
   -I "${TREE_IGNORE}" \
-  --dirsfirst "${@}" \
-| \
-less \
-  --quit-if-one-screen \
-  --LONG-PROMPT \
-  --LINE-NUMBERS \
-  --RAW-CONTROL-CHARS \
-  --no-init
+  --dirsfirst "${@}" |
+  less \
+    --quit-if-one-screen \
+    --LONG-PROMPT \
+    --LINE-NUMBERS \
+    --RAW-CONTROL-CHARS \
+    --no-init

@@ -8,5 +8,5 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 pre-commit \
   autoupdate \
-    --config "${PRECOMMIT_CONFIG}" \
-    ${@}
+  --config "${PRECOMMIT_CONFIG}" \
+  ${@}

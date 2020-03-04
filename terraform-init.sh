@@ -8,10 +8,10 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 terraform \
   init \
-    -get=true \
-    -get-plugins=true \
-    -input=true \
-    -lock=true \
-    -lock-timeout="${TERRAFORM_LOCK_TIMEOUT}" \
-    -verify-plugins=true \
-    ${@}
+  -get=true \
+  -get-plugins=true \
+  -input=true \
+  -lock=true \
+  -lock-timeout="${TERRAFORM_LOCK_TIMEOUT}" \
+  -verify-plugins=true \
+  ${@}

@@ -8,10 +8,10 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 terraform \
   plan \
-    -detailed-exitcode \
-    -input=true \
-    -lock=true \
-    -lock-timeout="${TERRAFORM_LOCK_TIMEOUT}" \
-    -out "${TERRAFORM_PLAN_PATH}" \
-    -refresh=true \
-    ${@}
+  -detailed-exitcode \
+  -input=true \
+  -lock=true \
+  -lock-timeout="${TERRAFORM_LOCK_TIMEOUT}" \
+  -out "${TERRAFORM_PLAN_PATH}" \
+  -refresh=true \
+  ${@}

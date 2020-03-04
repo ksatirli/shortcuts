@@ -2,6 +2,6 @@
 
 docker \
   system \
-    prune \
-      --all \
-      --force
+  prune \
+  --all \
+  --force

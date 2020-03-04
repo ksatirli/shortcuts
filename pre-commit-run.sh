@@ -8,6 +8,6 @@ SELF=$(realpath "${0}")
 # shellcheck disable=SC2068
 pre-commit \
   run \
-    --config "${PRECOMMIT_CONFIG}" \
-    --all-files \
-    ${@}
+  --config "${PRECOMMIT_CONFIG}" \
+  --all-files \
+  ${@}
