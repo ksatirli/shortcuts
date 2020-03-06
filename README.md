@@ -57,7 +57,7 @@ This will make the following shortcuts available globally:
 - `terraform-workspace-delete`
 - `terraform-workspace-new`
 
-The shortcuts in the _Terraform_ section set sensible defaults that work for _us_. Inspect the [Shell scripts](https://github.com/operatehappy/node-shortcuts/search?l=Shell&q=terraform) for a better understanding of what that means.
+The shortcuts in the _Terraform_ section set sensible defaults that work for _us_. Inspect the [Shell scripts](https://github.com/operatehappy/shortcuts/search?l=Shell&q=terraform) for a better understanding of what that means.
 
 ### `pre-commit`
 
@@ -82,7 +82,7 @@ The runtime can be changed by supplying a single argument as the first argument.
 
 ## Author Information
 
-This module is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/node-shortcuts/graphs/contributors)
+This module is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/shortcuts/graphs/contributors)
 
 Development of this module was sponsored by [Operate Happy](https://github.com/operatehappy).
 

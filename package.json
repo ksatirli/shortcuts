@@ -9,6 +9,7 @@
     "oh-release": "oh-release.sh",
     "oh-terraform-docs": "oh-terraform-docs.sh",
     "oh-tree": "oh-tree.sh",
+    "pre-commit-autoupdate": "pre-commit-autoupdate.sh",
     "pre-commit-install": "pre-commit-install.sh",
     "pre-commit-remove": "pre-commit-remove.sh",
     "pre-commit-run": "pre-commit-run.sh",

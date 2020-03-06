@@ -2,7 +2,7 @@
 
 docker \
   ps \
-    --quiet \
-    --filter "status=exited" \
-    --filter "status=dead" \
-| xargs "docker rm"
+  --quiet \
+  --filter "status=exited" \
+  --filter "status=dead" |
+  xargs "docker rm"

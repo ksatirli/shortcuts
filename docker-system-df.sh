@@ -2,5 +2,5 @@
 
 docker \
   system \
-    df \
-      --verbose
+  df \
+  --verbose
