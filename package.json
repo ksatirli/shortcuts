@@ -7,6 +7,7 @@
     "docker-system-df": "docker-system-df.sh",
     "git-log": "git-log.sh",
     "oh-release": "oh-release.sh",
+    "oh-shfmt": "oh-shfmt.sh",
     "oh-terraform-docs": "oh-terraform-docs.sh",
     "oh-tree": "oh-tree.sh",
     "pre-commit-autoupdate": "pre-commit-autoupdate.sh",

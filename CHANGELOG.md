@@ -1,8 +1,5 @@
-## 0.15.0 (2020-03-06)
-
-* adds shortcut for pre-commit autoupdate (#11) ([81794d2](https://github.com/operatehappy/node-shortcuts/commit/81794d2)), closes [#11](https://github.com/operatehappy/node-shortcuts/issues/11)
-
 # 0.15.0 (2020-03-06)
+
 * adds shortcut for pre-commit autoupdate (#11) ([81794d2](https://github.com/operatehappy/node-shortcuts/commit/81794d2)), closes [#11](https://github.com/operatehappy/node-shortcuts/issues/11)
 
 ## 0.14.0 (2020-02-24)
