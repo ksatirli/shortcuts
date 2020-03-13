@@ -69,6 +69,7 @@ The shortcuts in the [pre-commit](https://pre-commit.com/) section install, remo
 
 ### Operate Happy
 
+- `oh-shfmt`
 - `oh-release`
 - `oh-terraform-docs`
 
